@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import 'bulma';
 import './index.scss'
 
-import Header from '../components/header'
+import { Header } from '../components/landing'
 
 const TemplateWrapper = ({ children }) => (
   <div>
