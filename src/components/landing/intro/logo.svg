@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="183px" height="292px" viewBox="0 0 183 292" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>gdg_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="98.8014706%" cy="97.9036527%" fx="98.8014706%" fy="97.9036527%" r="325.470588%" gradientTransform="translate(0.988015,0.979037),scale(1.000000,0.719218),translate(-0.988015,-0.979037)" id="radialGradient-1">
+            <stop stop-color="#BF360C" stop-opacity="0.2" offset="0%"></stop>
+            <stop stop-color="#BF360C" stop-opacity="0.02" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="162.572101%" cy="157.707058%" fx="162.572101%" fy="157.707058%" r="262.642731%" gradientTransform="translate(1.625721,1.577071),scale(1.000000,0.692474),translate(-1.625721,-1.577071)" id="radialGradient-2">
+            <stop stop-color="#263238" stop-opacity="0.2" offset="0%"></stop>
+            <stop stop-color="#263238" stop-opacity="0.02" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="-1.24996094%" cy="0.78125%" fx="-1.24996094%" fy="0.78125%" r="167.932252%" gradientTransform="translate(-0.012500,0.007812),scale(1.000000,0.610363),translate(0.012500,-0.007812)" id="radialGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.1" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-927.000000, -124.000000)" fill-rule="nonzero">
+            <g id="Welcome-Message" transform="translate(0.000000, 80.000000)">
+                <g id="gdg_icon" transform="translate(927.000000, 44.000000)">
+                    <polygon id="XMLID_30_" fill="#FFC107" points="135.150853 233.303438 110.926093 191.35125 52.768438 292 102.562512 292 135.811736 234.444063"></polygon>
+                    <polygon id="Shape" fill="#0F9D58" points="84.718686 146 110.926093 191.35125 52.768438 292 0.353623188 292"></polygon>
+                    <polygon id="Shape" fill="#BF360C" opacity="0.2" points="102.562512 289.71875 54.0902029 289.71875 52.768438 292 102.562512 292 135.811736 234.444062 135.150853 233.303437"></polygon>
+                    <polygon id="Shape" fill="#263238" opacity="0.2" points="1.67538808 289.71875 0.353623188 292 52.768438 292 54.0902029 289.71875"></polygon>
+                    <polygon id="Shape" fill="#FFFFFF" opacity="0.2" points="0.353623188 292 1.67538808 292 85.3795684 147.140625 84.718686 146"></polygon>
+                    <polygon id="XMLID_37_" fill="url(#radialGradient-1)" points="135.811736 234.444063 110.926093 191.35125 104.818628 201.913437"></polygon>
+                    <polygon id="XMLID_57_" fill="url(#radialGradient-2)" points="104.818628 201.913438 110.926093 191.35125 84.718686 146 72.2074976 167.671875"></polygon>
+                    <g id="XMLID_29_" transform="translate(0.353623, 0.000000)" fill="#4285F4">
+                        <g id="XMLID_61_">
+                            <polygon id="XMLID_67_" points="52.4148148 0 0 0 135.458113 234.444062 161.642731 189.115625 161.66552 189.07"></polygon>
+                        </g>
+                    </g>
+                    <path d="M178.996986,159.6875 C183.896631,151.224063 183.896631,140.775938 178.996986,132.3125 L102.562512,0 L52.768438,0 L162.019143,189.07 L178.996986,159.6875 Z" id="Shape" fill="#DB4437"></path>
+                    <polygon id="Shape" fill="#1A237E" opacity="0.2" points="162.019143 189.07 161.358261 187.952187 135.811736 232.162812 1.67538808 0 0.353623188 0 135.811736 234.444062 161.996354 189.115625"></polygon>
+                    <path d="M102.562512,2.28125 L178.996986,134.59375 C181.253101,138.494687 182.415343,142.80625 182.597655,147.140625 C182.802757,142.030625 181.640515,136.875 178.996986,132.3125 L102.562512,0 L0.353623188,0 L1.67538808,2.28125 L102.562512,2.28125 Z" id="Shape" fill="#FFFFFF" opacity="0.2"></path>
+                    <path d="M162.019143,189.07 L178.996986,159.6875 C181.640515,155.125 182.802757,149.969375 182.597655,144.859375 C182.415343,149.19375 181.253101,153.505313 178.996986,157.40625 L161.358261,187.952188 L162.019143,189.07 Z" id="XMLID_20_" fill="#3E2723" opacity="0.2"></path>
+                    <path d="M174.987453,132.3125 L100.268501,0 L0.353623188,0 L82.8251677,146 L0.353623188,292 L100.268501,292 L174.987453,159.6875 C179.777129,151.224063 179.777129,140.775938 174.987453,132.3125 Z" id="XMLID_23_" fill="url(#radialGradient-3)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

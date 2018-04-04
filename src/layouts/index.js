@@ -5,33 +5,20 @@ import Helmet from 'react-helmet'
 import 'bulma';
 import './index.scss'
 
-import { Header } from '../components/landing'
+import { Header, Intro } from '../components/landing'
 
-const TemplateWrapper = ({ children }) => (
+const Index = () => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Google Developer Group Divinópolis"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
     <Header />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
-      {children()}
-    </div>
+    <Intro />
   </div>
 )
 
-TemplateWrapper.propTypes = {
-  children: PropTypes.func,
-}
-
-export default TemplateWrapper
+export default Index
