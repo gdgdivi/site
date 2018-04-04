@@ -1,1 +1,22 @@
-// @import 'bulma.scss';
+html {
+  font-size: 16px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 940px;
+}
+
+body, button, input, select, textarea, a, p, h1, h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+  color: #676C71;
+}
+
+svg {
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+}
