@@ -1,11 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-
 import 'bulma';
 import './index.scss'
-
-import { Header, Intro, About } from '../components/landing'
+import Landing from '../components/landing'
 
 const Index = () => (
   <div>
@@ -15,10 +13,11 @@ const Index = () => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
-    />
-    <Header />
-    <Intro />
-    <About />
+      />
+    <Landing.Header />
+    <Landing.Intro />
+    <Landing.About />
+    <Landing.Team />
   </div>
 )
 
