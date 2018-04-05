@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import 'bulma';
 import './index.scss'
 
-import { Header, Intro } from '../components/landing'
+import { Header, Intro, About } from '../components/landing'
 
 const Index = () => (
   <div>
@@ -18,6 +18,7 @@ const Index = () => (
     />
     <Header />
     <Intro />
+    <About />
   </div>
 )
 
