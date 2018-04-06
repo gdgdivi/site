@@ -1,11 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
-
-import logo from "./gdgdivi-logo.png";
-import logo2x from "./gdgdivi-logo@2x.png";
-import logo3x from "./gdgdivi-logo@3x.png";
-import logo4x from "./gdgdivi-logo@4x.png";
+import { withPrefix } from 'gatsby-link'
 
 const Nav = styled.nav.attrs({ className: 'navbar' })`
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
@@ -23,21 +19,28 @@ const LogoImage = styled.img`
   width: 218px;
 `
 
-const Brand = () => (
-  <div className='navbar-brand'>
-    <Link className='navbar-item' to="/">
-      <LogoImage
-        src={logo}
-        srcSet={`${logo} 1x, ${logo2x} 2x, ${logo3x} 3x, ${logo4x} 4x`}
-        alt='Google Developer Group Divinópolis' />
-    </Link>
-    <Burger data-target='nav-menu'>
-      <span></span>
-      <span></span>
-      <span></span>
-    </Burger>
-  </div>
-)
+const Brand = () => {
+  const logo = withPrefix('static/images/gdgdivi-logo.png');
+  const logo2x = withPrefix('static/images/gdgdivi-logo@2x.png');
+  const logo3x = withPrefix('static/images/gdgdivi-logo@3x.png');
+  const logo4x = withPrefix('static/images/gdgdivi-logo@4x.png');
+
+  return (
+    <div className='navbar-brand'>
+      <Link className='navbar-item' to='/'>
+        <LogoImage
+          src={logo}
+          srcSet={`${logo} 1x, ${logo2x} 2x, ${logo3x} 3x, ${logo4x} 4x`}
+          alt='Google Developer Group Divinópolis' />
+      </Link>
+      <Burger data-target='nav-menu'>
+        <span></span>
+        <span></span>
+        <span></span>
+      </Burger>
+    </div>
+  )
+}
 
 const Header = () => (
   <Nav>
