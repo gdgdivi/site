@@ -3,63 +3,58 @@
     "image": "static/images/profile/gustavo.jpeg",
     "name": "Gustavo Henrique",
     "job": "Front-end Developer",
-    "facebook": "#",
-    "github": "#",
-    "linkedin": "#",
-    "twitter": "#"
+    "facebook": "https://www.facebook.com/profile.php?id=100009471665592",
+    "github": "https://github.com/oguhpereira",
+    "linkedin": "https://www.linkedin.com/in/oguhpereira/"
   },
   {
     "image": "static/images/profile/lauro.jpeg",
     "name": "Lauro Mansur",
     "job": "Front-end Developer",
-    "facebook": "#",
-    "github": "#",
-    "linkedin": "#",
-    "twitter": "#"
+    "facebook": "https://www.facebook.com/lauromansur",
+    "github": "https://github.com/lauromansur",
+    "linkedin": "https://www.linkedin.com/in/lauromansur/",
+    "twitter": "https://twitter.com/lauromansur"
   },
   {
     "image": "static/images/profile/mario.jpeg",
     "name": "Mário Vilela",
     "job": "Front-end Developer",
-    "facebook": "#",
-    "github": "#",
-    "linkedin": "#",
-    "twitter": "#"
+    "facebook": "https://www.facebook.com/mariolf.vilela",
+    "github": "https://github.com/mariolfvilela",
+    "linkedin": "https://www.linkedin.com/in/m%C3%A1rio-vilela-b9498530/"
   },
   {
     "image": "static/images/profile/mell.jpeg",
     "name": "Melissa Santos",
     "job": "C# Developer",
-    "facebook": "#",
-    "github": "#",
-    "linkedin": "#",
-    "twitter": "#"
+    "facebook": "https://www.facebook.com/melissa.santosbarbosa",
+    "github": "https://github.com/MellBarbosa",
+    "linkedin": "https://www.linkedin.com/in/melissa-santos-barbosa-b749a885/",
+    "twitter": "https://twitter.com/42_mell"
   },
   {
     "image": "static/images/profile/sanye.jpeg",
     "name": "Sanye Caroline",
     "job": "C# Developer",
-    "facebook": "#",
-    "github": "#",
-    "linkedin": "#",
-    "twitter": "#"
+    "facebook": "https://www.facebook.com/sanyecaroline",
+    "linkedin": "https://www.linkedin.com/in/sanye-caroline-6a1688153/"
   },
   {
     "image": "static/images/profile/silvano.jpeg",
     "name": "Silvano Junior",
     "job": "QA",
-    "facebook": "#",
-    "github": "#",
-    "linkedin": "#",
-    "twitter": "#"
+    "facebook": "https://www.facebook.com/MrSilvanoJunior",
+    "linkedin": "https://www.linkedin.com/in/silvano-junior-437ba9128/",
+    "twitter": "https://twitter.com/mrsilvanojunior"
   },
   {
     "image": "static/images/profile/vini.jpeg",
     "name": "Vinícius Soares",
     "job": "Mobile Engineer",
-    "facebook": "#",
-    "github": "#",
-    "linkedin": "#",
-    "twitter": "#"
+    "facebook": "https://www.facebook.com/vinicius5oares",
+    "github": "https://github.com/viniciussoares",
+    "linkedin": "https://www.linkedin.com/in/0vinisoares/",
+    "twitter": "https://twitter.com/0vinisoares"
   }
 ]

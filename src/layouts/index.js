@@ -12,8 +12,9 @@ const Index = () => (
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
-      ]}
-      />
+      ]}>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js" />
+    </Helmet>
     <Landing.Header />
     <Landing.Intro />
     <Landing.About />

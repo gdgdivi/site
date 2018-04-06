@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link, withPrefix } from 'gatsby-link'
-
+import SocialIcon from './social-icon'
 import InnerContent from './../inner-content'
 import Avatar from './avatar'
 import team from './team.json'
@@ -42,10 +42,10 @@ const Profile = ({ profile }) => (
         <Name>{profile.name}</Name>
         <Job>{profile.job}</Job>
         <SocialContainer>
-          <li><a><i className="fab fa-facebook is-facebook"></i></a></li>
-          <li><a><i className="fab fa-github is-github"></i></a></li>
-          <li><a><i className="fab fa-linkedin is-linkedin"></i></a></li>
-          <li><a><i className="fab fa-twitter is-twitter"></i></a></li>
+          {profile.facebook && <SocialIcon icon='fa-facebook' url={profile.facebook} color='var(--facebook)'/>}
+          {profile.github && <SocialIcon icon='fa-github' url={profile.github} color='var(--github)'/>}
+          {profile.linkedin && <SocialIcon icon='fa-linkedin' url={profile.linkedin} color='var(--linkedin)'/>}
+          {profile.twitter && <SocialIcon icon='fa-twitter' url={profile.twitter} color='var(--twitter)'/>}
         </SocialContainer>
       </div>
     </Card>
