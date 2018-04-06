@@ -3,9 +3,8 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import 'bulma';
 import './index.scss'
-import Landing from '../components/landing'
 
-const Index = () => (
+const Index = ({ children }) => (
   <div>
     <Helmet
       title="Google Developer Group Divinópolis"
@@ -15,10 +14,7 @@ const Index = () => (
       ]}>
       <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js" />
     </Helmet>
-    <Landing.Header />
-    <Landing.Intro />
-    <Landing.About />
-    <Landing.Team />
+    {children()}
   </div>
 )
 
