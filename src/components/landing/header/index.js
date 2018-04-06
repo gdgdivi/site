@@ -44,9 +44,9 @@ const Header = () => (
     <Container>
       <Brand/>
       <div id='nav-menu' className='navbar-menu navbar-end'>
-        <Link className="navbar-item" to="/">O que fazemos</Link>
-        <Link className="navbar-item" to="/">Equipe</Link>
-        <Link className="navbar-item" to="/">Contato</Link>
+        <a className='navbar-item' href='#intro'>O que fazemos</a>
+        <a className='navbar-item' href='#team'>Equipe</a>
+        <a className='navbar-item' href='#contact'>Contato</a>
       </div>
     </Container>
   </Nav>

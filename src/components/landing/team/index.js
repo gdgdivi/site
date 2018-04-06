@@ -16,7 +16,7 @@ const Title = styled.h1`
 `
 
 const Team = () => (
-  <Content>
+  <Content id='team'>
     <InnerContent>
       <Title>Equipe</Title>
       <div className="columns is-multiline">

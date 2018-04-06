@@ -47,7 +47,7 @@ const DescriptionContainer = styled.div.attrs({ className: 'description' })`
 `
 
 const Intro = () => (
-  <Content>
+  <Content id='intro'>
     <InnerContent>
       <LogoContainer>
         <figure>
