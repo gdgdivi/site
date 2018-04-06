@@ -9,6 +9,7 @@ const IndexPage = () => (
     <Landing.About />
     <Landing.Team />
     <Landing.Social />
+    <Landing.Footer />
   </div>
 )
 

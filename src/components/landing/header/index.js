@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 import { withPrefix } from 'gatsby-link'
+import Logo from './../../common/logo'
 
 const Nav = styled.nav.attrs({ className: 'navbar' })`
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
@@ -14,11 +15,6 @@ const Burger = styled.div.attrs({ className: 'navbar-burger burger' })`
   min-height: 5rem;
 `
 
-const LogoImage = styled.img`
-  height: 28px;
-  width: 218px;
-`
-
 const Brand = () => {
   const logo = withPrefix('static/images/gdgdivi-logo.png');
   const logo2x = withPrefix('static/images/gdgdivi-logo@2x.png');
@@ -28,10 +24,7 @@ const Brand = () => {
   return (
     <div className='navbar-brand'>
       <Link className='navbar-item' to='/'>
-        <LogoImage
-          src={logo}
-          srcSet={`${logo} 1x, ${logo2x} 2x, ${logo3x} 3x, ${logo4x} 4x`}
-          alt='Google Developer Group Divinópolis' />
+        <Logo height='28' width='218' />
       </Link>
       <Burger data-target='nav-menu'>
         <span></span>
