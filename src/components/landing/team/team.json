@@ -1,5 +1,6 @@
 [
   {
+    "image": "static/images/profile/gustavo.jpeg",
     "name": "Gustavo Henrique",
     "job": "Front-end Developer",
     "facebook": "#",
@@ -8,6 +9,7 @@
     "twitter": "#"
   },
   {
+    "image": "static/images/profile/lauro.jpeg",
     "name": "Lauro Mansur",
     "job": "Front-end Developer",
     "facebook": "#",
@@ -16,6 +18,7 @@
     "twitter": "#"
   },
   {
+    "image": "static/images/profile/mario.jpeg",
     "name": "Mário Vilela",
     "job": "Front-end Developer",
     "facebook": "#",
@@ -24,6 +27,7 @@
     "twitter": "#"
   },
   {
+    "image": "static/images/profile/mell.jpeg",
     "name": "Melissa Santos",
     "job": "C# Developer",
     "facebook": "#",
@@ -32,6 +36,7 @@
     "twitter": "#"
   },
   {
+    "image": "static/images/profile/sanye.jpeg",
     "name": "Sanye Caroline",
     "job": "C# Developer",
     "facebook": "#",
@@ -40,6 +45,7 @@
     "twitter": "#"
   },
   {
+    "image": "static/images/profile/silvano.jpeg",
     "name": "Silvano Junior",
     "job": "QA",
     "facebook": "#",
@@ -48,6 +54,7 @@
     "twitter": "#"
   },
   {
+    "image": "static/images/profile/vini.jpeg",
     "name": "Vinícius Soares",
     "job": "Mobile Engineer",
     "facebook": "#",

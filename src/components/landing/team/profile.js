@@ -1,8 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-import Link from 'gatsby-link'
+import { Link, withPrefix } from 'gatsby-link'
+
 import InnerContent from './../inner-content'
-import team from './team.json';
+import Avatar from './avatar'
+import team from './team.json'
 
 const Card = styled.div`
   align-items: center;
@@ -11,6 +13,8 @@ const Card = styled.div`
   display: flex;
   padding: 1rem;
   min-width: 8rem;
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+  -webkit-box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
 `
 
 const Name = styled.h2`
@@ -33,6 +37,7 @@ const SocialContainer = styled.ul`
 const Profile = ({ profile }) => (
   <div className="column is-6">
     <Card>
+      <Avatar imageUrl={profile.image} />
       <div>
         <Name>{profile.name}</Name>
         <Job>{profile.job}</Job>
