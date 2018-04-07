@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import icon from './ic-tech.svg'
-
 const Container = styled.div.attrs({ className: 'column is-one-third' })`
   text-align: center;
 `

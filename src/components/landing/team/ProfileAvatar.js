@@ -17,14 +17,11 @@ export const Avatar = styled.img`
 `
 
 export default function ProfileAvatar({ imageUrl, size = 5, margin = 1 }) {
-  imageUrl = withPrefix(imageUrl);
+  imageUrl = withPrefix(imageUrl)
 
   return (
     <Wrapper size={size} margin={margin}>
-      <Avatar
-        size={size}
-        src={imageUrl || ""}
-        alt="Avatar image" />
+      <Avatar size={size} src={imageUrl || ''} alt="Avatar image" />
     </Wrapper>
   )
 }

@@ -2,24 +2,26 @@ import React from 'react'
 import styled from 'styled-components'
 import ContentWrapper from './../../common/ContentWrapper'
 import Profile from './Profile'
-import team from './team.json';
+import team from './team.json'
 
 const Section = styled.section`
-  background-color: #4285F4;
+  background-color: #4285f4;
 `
 
 const Title = styled.h1`
-  color: #FFF;
+  color: #fff;
   font-size: 2.75rem;
   margin-bottom: 2rem;
 `
 
 const Team = () => (
-  <Section id='team'>
+  <Section id="team">
     <ContentWrapper>
       <Title>Equipe</Title>
       <div className="columns is-multiline">
-        {team.map((profile, index) => <Profile profile={profile} key={index} />)}
+        {team.map((profile, index) => (
+          <Profile profile={profile} key={index} />
+        ))}
       </div>
     </ContentWrapper>
   </Section>

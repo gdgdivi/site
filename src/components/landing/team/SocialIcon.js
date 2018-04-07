@@ -29,7 +29,7 @@ export default function SocialIcon({ icon, url, color }) {
   return (
     <li>
       <Wrapper color={color} href={url} target="_blank">
-        <i className={`fab ${icon}`}></i>
+        <i className={`fab ${icon}`} />
       </Wrapper>
     </li>
   )

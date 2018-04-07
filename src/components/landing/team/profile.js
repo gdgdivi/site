@@ -1,19 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link, withPrefix } from 'gatsby-link'
 import SocialIcon from './SocialIcon'
 import ProfileAvatar from './ProfileAvatar'
-import team from './team.json'
 
 const Card = styled.div`
   align-items: center;
-  background-color: #FFF;
+  background-color: #fff;
   border-radius: 2px;
   display: flex;
   padding: 1rem;
   min-width: 8rem;
-  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
-  -webkit-box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
 `
 
 const Name = styled.h2`
@@ -41,10 +38,34 @@ const Profile = ({ profile }) => (
         <Name>{profile.name}</Name>
         <Job>{profile.job}</Job>
         <SocialContainer>
-          {profile.facebook && <SocialIcon icon='fa-facebook' url={profile.facebook} color='var(--facebook)'/>}
-          {profile.github && <SocialIcon icon='fa-github' url={profile.github} color='var(--github)'/>}
-          {profile.linkedin && <SocialIcon icon='fa-linkedin' url={profile.linkedin} color='var(--linkedin)'/>}
-          {profile.twitter && <SocialIcon icon='fa-twitter' url={profile.twitter} color='var(--twitter)'/>}
+          {profile.facebook && (
+            <SocialIcon
+              icon="fa-facebook"
+              url={profile.facebook}
+              color="var(--facebook)"
+            />
+          )}
+          {profile.github && (
+            <SocialIcon
+              icon="fa-github"
+              url={profile.github}
+              color="var(--github)"
+            />
+          )}
+          {profile.linkedin && (
+            <SocialIcon
+              icon="fa-linkedin"
+              url={profile.linkedin}
+              color="var(--linkedin)"
+            />
+          )}
+          {profile.twitter && (
+            <SocialIcon
+              icon="fa-twitter"
+              url={profile.twitter}
+              color="var(--twitter)"
+            />
+          )}
         </SocialContainer>
       </div>
     </Card>
