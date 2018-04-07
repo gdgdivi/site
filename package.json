@@ -22,7 +22,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "deploy": "gatsby build && gh-pages -d public -b master",
+    "deploy": "yarn lint && gatsby build && gh-pages -d public -b master",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:css": "NODE_ENV=development stylelint './src/**/*.js'",
