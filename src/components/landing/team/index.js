@@ -1,11 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-import Link from 'gatsby-link'
-import InnerContent from './../inner-content'
+import ContentWrapper from './../../common/ContentWrapper'
 import Profile from './profile'
 import team from './team.json';
 
-const Content = styled.section`
+const Section = styled.section`
   background-color: #4285F4;
 `
 
@@ -16,14 +15,14 @@ const Title = styled.h1`
 `
 
 const Team = () => (
-  <Content id='team'>
-    <InnerContent>
+  <Section id='team'>
+    <ContentWrapper>
       <Title>Equipe</Title>
       <div className="columns is-multiline">
         {team.map((profile, index) => <Profile profile={profile} key={index} />)}
       </div>
-    </InnerContent>
-  </Content>
+    </ContentWrapper>
+  </Section>
 )
 
 export default Team

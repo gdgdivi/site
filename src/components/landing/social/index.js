@@ -1,10 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
-import InnerContent from './../inner-content'
+import ContentWrapper from './../../common/ContentWrapper'
 import ContactIcon from './contanct-icon'
-
-const Content = styled.section``
 
 const Title = styled.h1`
   font-size: 2.75rem;
@@ -36,8 +34,8 @@ const LinkContainer = styled.a`
 `
 
 const Social = () => (
-  <Content id='contact'>
-    <InnerContent>
+  <section>
+    <ContentWrapper>
       <Title>Contato</Title>
       <ContactItemsWrapper>
         <ContactIcon icon='fa-facebook' url='https://www.facebook.com/gdgdivi' color='var(--facebook)' />
@@ -45,8 +43,8 @@ const Social = () => (
         <ContactIcon icon='fa-meetup' url='https://www.meetup.com/pt-BR/GDG-Divinopolis/' color='var(--meetup)' />
         <ContactIcon icon='fa-twitter' url='https://twitter.com/gdgdivi' color='var(--twitter)' />
       </ContactItemsWrapper>
-    </InnerContent>
-  </Content>
+    </ContentWrapper>
+  </section>
 )
 
 export default Social

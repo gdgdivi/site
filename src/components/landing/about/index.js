@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
-import InnerContent from './../inner-content'
+import ContentWrapper from './../../common/ContentWrapper'
 import Item from './about-item'
 import techIcon from './ic-tech.svg'
 import communityIcon from './ic-community.svg'
@@ -25,18 +25,18 @@ const data = [
   }
 ]
 
-const Content = styled.section`
+const Section = styled.section`
   background-color: #FFFFFF;
 `
 
 const About = () => (
-  <Content>
-    <InnerContent>
+  <Section>
+    <ContentWrapper>
       <div className='columns is-multiline'>
         {data.map((item, i) => <Item item={item} key={i} />)}
       </div>
-    </InnerContent>
-  </Content>
+    </ContentWrapper>
+  </Section>
 )
 
 export default About

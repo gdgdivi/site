@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link, withPrefix } from 'gatsby-link'
 import SocialIcon from './social-icon'
-import InnerContent from './../inner-content'
 import Avatar from './avatar'
 import team from './team.json'
 

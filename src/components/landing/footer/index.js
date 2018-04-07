@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import InnerContent from './../inner-content'
+import ContentWrapper from './../../common/ContentWrapper'
 import Logo from './../../common/logo'
 
 const FooterWrapper = styled.footer`
@@ -24,7 +24,7 @@ const Link = styled.a`
 const Footer = () => {
   return (
     <FooterWrapper>
-      <InnerContent>
+      <ContentWrapper>
         <div className='columns'>
           <div className='column'>
             <Logo width='218' height='28' />
@@ -39,7 +39,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-      </InnerContent>
+      </ContentWrapper>
     </FooterWrapper>
   )
 }

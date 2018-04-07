@@ -1,15 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-import Link from 'gatsby-link'
-
-import BaseInnerContent from './../inner-content'
+import ContentWrapper from './../../common/ContentWrapper'
 import logo from "./logo.svg";
 
 const Content = styled.section`
   background-color: #F7F7F7;
 `
 
-const InnerContent = BaseInnerContent.extend`
+const IntroContentWrapper = styled(ContentWrapper)`
   display: flex;
 
   @media screen and (max-width: 799px) {
@@ -48,7 +46,7 @@ const DescriptionContainer = styled.div.attrs({ className: 'description' })`
 
 const Intro = () => (
   <Content id='intro'>
-    <InnerContent>
+    <IntroContentWrapper>
       <LogoContainer>
         <figure>
           <img src={logo} alt="Logo of Google Developer Group" width="183" height="292" />
@@ -57,7 +55,7 @@ const Intro = () => (
       <DescriptionContainer>
         <p>O Google Developers Group Divinópolis, tem como objetivo reunir pessoas com interesse em tecnologias da Google e trocar conhecimentos através de encontros, reuniões e eventos. Além de servir como ponte entre empreendedores e desenvolvedores.</p>
       </DescriptionContainer>
-    </InnerContent>
+    </IntroContentWrapper>
   </Content>
 )
 
