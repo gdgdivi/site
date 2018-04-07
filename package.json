@@ -24,9 +24,31 @@
     "develop": "gatsby develop",
     "deploy": "gatsby build && gh-pages -d public -b master",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:css": "NODE_ENV=development stylelint './src/**/*.js'",
+    "lint:js": "NODE_ENV=development eslint './src/**/*.js' --ignore-path .gitignore",
+    "lint": "yarn lint:css && yarn lint:js"
   },
   "devDependencies": {
-    "prettier": "^1.11.1"
+    "babel-eslint": "8.0.1",
+    "babel-plugin-module-resolver": "^3.0.0",
+    "eslint": "4.9.0",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-import-resolver-babel-module": "^4.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jest": "^21.2.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-prettier": "^2.1.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "7.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier": "^1.11.1",
+    "prettier-standard": "^7.0.1",
+    "stylelint": "^8.0.0",
+    "stylelint-config-standard": "^17.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.0.0"
   }
 }
