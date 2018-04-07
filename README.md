@@ -1,26 +1,29 @@
-# gatsby-starter-default
-The default Gatsby starter.
+[![CircleCI](https://circleci.com/gh/gdgdivi/gdgdivi.github.io/tree/source.svg?style=svg)](https://circleci.com/gh/gdgdivi/gdgdivi.github.io/tree/source)
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+# GDG Divinópolis website
 
-## Install
+## Setup
 
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
+You need nodejs to run and yarn to install the dependencies. Refer to package.json's engines fields for the correct versions
+
 ```
-
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
-```
-
-Then you can run it by:
-```sh
-cd gatsby-example-site
-npm run develop
+$ yarn # install dependencies
+$ yarn develop # run development server
 ```
 
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+```
+$ yarn # install dependencies
+$ yarn deploy # deploy to github
+```
+
+## Stack
+
+* gatsby.js: static site generator
+* styled-components: css-in-js library for react which encapsules stylesheets for components and leverages js for logics related to css
+* jest: javascript test runner
+* eslint: javascript linter
+* stylelint: like eslint but for css styles
+* prettier: javascript code formatter
+* babeljs: code transpiler
