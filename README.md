@@ -48,5 +48,5 @@ Feel free to send PR. If you have any questions, feel free to contact
 
 ## License
 
-Project is published under the [MIT license](https://github.com/gdgdivi/gdgdivi.github.io/blob/master/LICENSE).  
+Project is published under the [MIT license](https://github.com/gdgdivi/gdgdivi.github.io/blob/source/LICENSE).  
 Feel free to clone and modify repo as you want, but don't forget to add reference to authors :)
