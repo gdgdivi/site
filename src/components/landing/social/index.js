@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 import ContentWrapper from './../../common/ContentWrapper'
-import ContactIcon from './contanct-icon'
+import ContactIcon from './ContactIcon'
 
 const Title = styled.h1`
   font-size: 2.75rem;

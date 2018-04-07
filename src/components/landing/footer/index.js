@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import ContentWrapper from './../../common/ContentWrapper'
-import Logo from './../../common/logo'
+import Logo from './../../common/Logo'
 
 const FooterWrapper = styled.footer`
   background-color: #FCFCFC;

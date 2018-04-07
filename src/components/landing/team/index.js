@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import ContentWrapper from './../../common/ContentWrapper'
-import Profile from './profile'
+import Profile from './Profile'
 import team from './team.json';
 
 const Section = styled.section`

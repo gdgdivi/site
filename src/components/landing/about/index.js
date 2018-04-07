@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 import ContentWrapper from './../../common/ContentWrapper'
-import Item from './about-item'
+import AboutItem from './AboutItem'
 import techIcon from './ic-tech.svg'
 import communityIcon from './ic-community.svg'
 import opportunitiesIcon from './ic-opportunities.svg'
@@ -33,7 +33,7 @@ const About = () => (
   <Section>
     <ContentWrapper>
       <div className='columns is-multiline'>
-        {data.map((item, i) => <Item item={item} key={i} />)}
+        {data.map((item, i) => <AboutItem item={item} key={i} />)}
       </div>
     </ContentWrapper>
   </Section>

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { withPrefix } from 'gatsby-link'
 
-export default function UserAvatar({ width, height }) {
+export default function Logo({ width, height }) {
   const logo = withPrefix('static/images/gdgdivi-logo.png');
   const logo2x = withPrefix('static/images/gdgdivi-logo@2x.png');
   const logo3x = withPrefix('static/images/gdgdivi-logo@3x.png');

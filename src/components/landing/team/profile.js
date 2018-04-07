@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link, withPrefix } from 'gatsby-link'
-import SocialIcon from './social-icon'
-import Avatar from './avatar'
+import SocialIcon from './SocialIcon'
+import ProfileAvatar from './ProfileAvatar'
 import team from './team.json'
 
 const Card = styled.div`
@@ -36,7 +36,7 @@ const SocialContainer = styled.ul`
 const Profile = ({ profile }) => (
   <div className="column is-6">
     <Card>
-      <Avatar imageUrl={profile.image} />
+      <ProfileAvatar imageUrl={profile.image} />
       <div>
         <Name>{profile.name}</Name>
         <Job>{profile.job}</Job>
