@@ -28,7 +28,7 @@ const Wrapper = styled.a`
 export default function SocialIcon({ icon, url, color }) {
   return (
     <li>
-      <Wrapper color={color} href={url} target="_blank">
+      <Wrapper color={color} href={url} target="_blank" rel="noopener">
         <i className={`fab ${icon}`} />
       </Wrapper>
     </li>

@@ -27,7 +27,7 @@ const Wrapper = styled.a`
 
 export default function ContactIcon({ icon, url, color }) {
   return (
-    <Wrapper color={color} href={url} target="_blank">
+    <Wrapper color={color} href={url} target="_blank" rel="noopener">
       <i className={`fab ${icon}`} />
     </Wrapper>
   )
