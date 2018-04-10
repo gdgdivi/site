@@ -8,6 +8,7 @@
     "bulma": "^0.6.2",
     "gatsby": "^1.9.241",
     "gatsby-link": "^1.6.39",
+    "gatsby-plugin-manifest": "^1.0.19",
     "gatsby-plugin-react-helmet": "^2.0.8",
     "gatsby-plugin-sass": "^1.0.25",
     "gatsby-plugin-styled-components": "^2.0.11",
