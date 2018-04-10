@@ -1,7 +1,7 @@
 import React from 'react'
 import { withPrefix } from 'gatsby-link'
 
-export default function Logo({ width, height }) {
+export default function Logo() {
   const logo = withPrefix('static/images/gdgdivi-logo.png')
   const logo2x = withPrefix('static/images/gdgdivi-logo@2x.png')
   const logo3x = withPrefix('static/images/gdgdivi-logo@3x.png')
@@ -12,8 +12,8 @@ export default function Logo({ width, height }) {
       src={logo}
       srcSet={`${logo} 1x, ${logo2x} 2x, ${logo3x} 3x, ${logo4x} 4x`}
       alt="Logo of GDG Divinópolis"
-      width={width}
-      height={height}
+      height="28"
+      width="218"
     />
   )
 }

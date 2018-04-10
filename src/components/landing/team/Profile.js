@@ -40,6 +40,7 @@ const Profile = ({ profile }) => (
         <SocialContainer>
           {profile.facebook && (
             <SocialIcon
+              label="Facebook"
               icon="fa-facebook"
               url={profile.facebook}
               color="var(--facebook)"
@@ -47,6 +48,7 @@ const Profile = ({ profile }) => (
           )}
           {profile.github && (
             <SocialIcon
+              label="Github"
               icon="fa-github"
               url={profile.github}
               color="var(--github)"
@@ -54,6 +56,7 @@ const Profile = ({ profile }) => (
           )}
           {profile.linkedin && (
             <SocialIcon
+              label="Linkedin"
               icon="fa-linkedin"
               url={profile.linkedin}
               color="var(--linkedin)"
@@ -61,6 +64,7 @@ const Profile = ({ profile }) => (
           )}
           {profile.twitter && (
             <SocialIcon
+              label="Twitter"
               icon="fa-twitter"
               url={profile.twitter}
               color="var(--twitter)"

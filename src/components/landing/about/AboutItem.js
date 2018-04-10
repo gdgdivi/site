@@ -22,7 +22,7 @@ const Description = styled.p`
 
 const AboutItem = ({ item }) => (
   <Container>
-    <Icon src={item.icon} />
+    <Icon src={item.icon} alt={item.headline} />
     <Headline>{item.headline}</Headline>
     <Description>{item.description}.</Description>
   </Container>

@@ -25,9 +25,15 @@ const Wrapper = styled.a`
   }
 `
 
-export default function ContactIcon({ icon, url, color }) {
+export default function ContactIcon({ label, icon, url, color }) {
   return (
-    <Wrapper color={color} href={url} target="_blank">
+    <Wrapper
+      aria-label={label}
+      color={color}
+      href={url}
+      target="_blank"
+      rel="noopener"
+    >
       <i className={`fab ${icon}`} />
     </Wrapper>
   )
