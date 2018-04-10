@@ -21,21 +21,25 @@ const Social = () => (
       <Title>Contato</Title>
       <ContactItemsWrapper>
         <ContactIcon
+          label="Facebook"
           icon="fa-facebook"
           url="https://www.facebook.com/gdgdivi"
           color="var(--facebook)"
         />
         <ContactIcon
+          label="Github"
           icon="fa-github"
           url="https://github.com/gdgdivi"
           color="var(--github)"
         />
         <ContactIcon
+          label="Meetup"
           icon="fa-meetup"
           url="https://www.meetup.com/pt-BR/GDG-Divinopolis/"
           color="var(--meetup)"
         />
         <ContactIcon
+          label="Twitter"
           icon="fa-twitter"
           url="https://twitter.com/gdgdivi"
           color="var(--twitter)"

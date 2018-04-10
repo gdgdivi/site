@@ -25,10 +25,16 @@ const Wrapper = styled.a`
   }
 `
 
-export default function SocialIcon({ icon, url, color }) {
+export default function SocialIcon({ label, icon, url, color }) {
   return (
     <li>
-      <Wrapper color={color} href={url} target="_blank" rel="noopener">
+      <Wrapper
+        aria-label={label}
+        color={color}
+        href={url}
+        target="_blank"
+        rel="noopener"
+      >
         <i className={`fab ${icon}`} />
       </Wrapper>
     </li>
