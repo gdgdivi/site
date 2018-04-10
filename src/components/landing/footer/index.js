@@ -27,7 +27,7 @@ const Footer = () => {
       <ContentWrapper>
         <div className="columns">
           <div className="column">
-            <Logo width="218" height="28" />
+            <Logo />
           </div>
           <div className="column is-3">
             <Title>Links</Title>

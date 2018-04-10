@@ -15,7 +15,7 @@ const Burger = styled.div.attrs({ className: 'navbar-burger burger' })`
 const Brand = () => (
   <div className="navbar-brand">
     <Link className="navbar-item" to="/">
-      <Logo height="28" width="218" />
+      <Logo />
     </Link>
     <Burger data-target="nav-menu">
       <span />
