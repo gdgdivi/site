@@ -3,8 +3,8 @@
 # GDG Divinópolis website
 
 <h3 align="center">
-  <a href="https://github.com/gdgdivi/site/blob/master/fastlane/screenshots/landing-page.png">
-  <img src="https://github.com/gdgdivi/site/blob/master/fastlane/screenshots/landing-page.png?raw=true" alt="GDG Divinópolis Landing Page" width="344">
+  <a href="https://github.com/gdgdivi/site/blob/master/screenshots/landing-page.png">
+  <img src="https://github.com/gdgdivi/site/blob/master/screenshots/landing-page.png?raw=true" alt="GDG Divinópolis Landing Page" width="344">
   </a>
 </h3>
 
