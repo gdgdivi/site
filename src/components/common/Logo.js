@@ -2,10 +2,10 @@ import React from 'react'
 import { withPrefix } from 'gatsby-link'
 
 export default function Logo() {
-  const logo = withPrefix('static/images/gdgdivi-logo.png')
-  const logo2x = withPrefix('static/images/gdgdivi-logo@2x.png')
-  const logo3x = withPrefix('static/images/gdgdivi-logo@3x.png')
-  const logo4x = withPrefix('static/images/gdgdivi-logo@4x.png')
+  const logo = withPrefix('images/gdgdivi-logo.png')
+  const logo2x = withPrefix('images/gdgdivi-logo@2x.png')
+  const logo3x = withPrefix('images/gdgdivi-logo@3x.png')
+  const logo4x = withPrefix('images/gdgdivi-logo@4x.png')
 
   return (
     <img

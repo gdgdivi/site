@@ -21,7 +21,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "rm -rf public && gatsby build",
     "develop": "gatsby develop",
     "deploy": "yarn lint && gatsby build && gh-pages -d public -b master",
     "format": "prettier --write 'src/**/*.js'",
