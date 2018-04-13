@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/gdgdivi/site/tree/source.svg?style=svg)](https://circleci.com/gh/gdgdivi/site/tree/source)
+[![CircleCI](https://circleci.com/gh/gdgdivi/site/tree/master.svg?style=svg)](https://circleci.com/gh/gdgdivi/site/tree/master)
 
 # GDG Divinópolis website
 
@@ -60,5 +60,5 @@ Feel free to send PR. If you have any questions, feel free to contact
 
 ## License
 
-Project is published under the [MIT license](https://github.com/gdgdivi/site/blob/source/LICENSE).  
+Project is published under the [MIT license](https://github.com/gdgdivi/site/blob/master/LICENSE).  
 Feel free to clone and modify repo as you want, but don't forget to add reference to authors :)
