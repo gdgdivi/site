@@ -16,12 +16,17 @@ export const Avatar = styled.img`
   width: ${({ size }) => `${size}rem`};
 `
 
-export default function ProfileAvatar({ imageUrl, size = 5, margin = 1 }) {
+export default function ProfileAvatar({
+  imageUrl,
+  srcset,
+  size = 5,
+  margin = 1,
+}) {
   imageUrl = withPrefix(imageUrl)
 
   return (
     <Wrapper size={size} margin={margin}>
-      <Avatar size={size} src={imageUrl || ''} alt="Avatar image" />
+      <Avatar size={size} src={imageUrl} srcSet={srcset} alt="Avatar image" />
     </Wrapper>
   )
 }
