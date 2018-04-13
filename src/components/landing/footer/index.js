@@ -11,10 +11,11 @@ const FooterWrapper = styled.footer`
 const Title = styled.h1`
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
+  color: #586069;
 `
 
 const Link = styled.a`
-  color: #757575;
+  color: #586069;
 
   :hover {
     color: var(--gdg);
