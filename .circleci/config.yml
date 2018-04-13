@@ -31,8 +31,7 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-      - run:
-        - >-
+      - run: |
           git config --global user.email "gdgdivi@gmail.com"
           git config --global user.name "GDG Divi [BOT]"
           gatsby build
