@@ -32,8 +32,8 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
       - add_ssh_keys:
-        fingerprints:
-          - "18:c2:33:bd:fc:81:29:a1:12:36:80:1d:37:97:8e:4e"
+          fingerprints:
+            - "18:c2:33:bd:fc:81:29:a1:12:36:80:1d:37:97:8e:4e"
       - run: |
           git config --global user.email "gdgdivi@gmail.com"
           git config --global user.name "GDG Divi [BOT]"
