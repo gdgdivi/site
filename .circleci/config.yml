@@ -34,8 +34,8 @@ jobs:
       - run: |
           git config --global user.email "gdgdivi@gmail.com"
           git config --global user.name "GDG Divi [BOT]"
-          gatsby build
-          gh-pages -d public -b master -r git@github.com:gdgdivi/gdgdivi.github.io.git -m 'Deploy new version'
+          yarn gatsby build
+          yarn gh-pages -d public -b master -r git@github.com:gdgdivi/gdgdivi.github.io.git -m 'Deploy new version'
 
 workflows:
   version: 2
