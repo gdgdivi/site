@@ -2,6 +2,12 @@
 
 # GDG Divinópolis website
 
+<h3 align="center">
+  <a href="https://github.com/gdgdivi/site/blob/master/fastlane/screenshots/landing-page.png">
+  <img src="https://github.com/gdgdivi/site/blob/master/fastlane/screenshots/landing-page.png?raw=true" alt="GDG Divinópolis Landing Page" width="344">
+  </a>
+</h3>
+
 ## Setup
 
 You need nodejs to run and yarn to install the dependencies. Refer to package.json's engines fields for the correct versions
