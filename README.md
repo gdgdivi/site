@@ -8,6 +8,12 @@
   </a>
 </h3>
 
+> Template is brought by [Vini Soares](https://github.com/viniciussoares) from GDG Divinópolis.
+
+> *Do you :heart: it?* Show your support - please, :star: the project.
+
+:zap: [Live demo](https://gdgdivi.github.io/)
+
 ## Setup
 
 You need nodejs to run and yarn to install the dependencies. Refer to package.json's engines fields for the correct versions
