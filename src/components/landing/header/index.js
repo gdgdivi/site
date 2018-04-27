@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 import Logo from './../../common/Logo'
+import Navbaritem from './navbaritem.js'
+import navgation from './navgation.json'
 
 const Nav = styled.nav.attrs({ className: 'navbar' })`
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
@@ -30,15 +32,9 @@ const Header = () => (
     <div className="container">
       <Brand />
       <div id="nav-menu" className="navbar-menu navbar-end">
-        <a className="navbar-item" href="#intro">
-          O que fazemos
-        </a>
-        <a className="navbar-item" href="#team">
-          Equipe
-        </a>
-        <a className="navbar-item" href="#contact">
-          Contato
-        </a>
+        {navgation.map((navitem, index) => (
+          <Navbaritem navitem={navitem} key={index}/>
+        ))}
       </div>
     </div>
   </Nav>
