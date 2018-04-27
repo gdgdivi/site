@@ -11,6 +11,10 @@ const Card = styled.div`
   padding: 1rem;
   min-width: 8rem;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  :hover{
+    transform:scale(1.02 );
+    transition: transform 0.2s;
+  }
 `
 
 const Name = styled.h2`

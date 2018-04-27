@@ -15,13 +15,12 @@ const Wrapper = styled.a`
   :hover {
     color: ${({ color }) => `${color}`};
     opacity: 1;
-    transform: scale(0.86);
+    transition: color 0.5s;
   }
 
   :active {
     color: ${({ color }) => `${color}`};
     opacity: 1;
-    transform: scale(0.71);
   }
 `
 
