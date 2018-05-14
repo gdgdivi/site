@@ -16,7 +16,7 @@ const IntroContentWrapper = styled(ContentWrapper)`
     justify-content: center;
     align-items: center;
   }
-  @keyframe fadeIN{
+  @keyframes fadeIN{
     0%{
       background:#000;
       opacity:0;
