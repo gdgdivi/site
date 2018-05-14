@@ -17,12 +17,12 @@ const IntroContentWrapper = styled(ContentWrapper)`
     align-items: center;
   }
 
-  @keyframes fadeIN{
-    0%{
+  @keyframes fadeIN {
+    0% {
       background: #000;
       opacity: 0;
     }
-    100%{
+    100% {
       background: #fff;
       opacity: 1;
     }
