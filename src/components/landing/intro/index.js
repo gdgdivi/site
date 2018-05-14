@@ -10,7 +10,7 @@ const IntroContentWrapper = styled(ContentWrapper)`
   display: flex;
   animation: fadeIN 10s;
   opacity: 1;
-  
+
   @media screen and (max-width: 799px) {
     flex-direction: column;
     justify-content: center;
@@ -29,7 +29,6 @@ const IntroContentWrapper = styled(ContentWrapper)`
   }
 `
 const LogoContainer = styled.aside`
-
   @media screen and (min-width: 800px) {
     flex-grow: 0;
     flex-shrink: 0;
