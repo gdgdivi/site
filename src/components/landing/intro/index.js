@@ -9,12 +9,14 @@ const Content = styled.section`
 const IntroContentWrapper = styled(ContentWrapper)`
   display: flex;
   animation: fadeIN 10s;
-  opacity:1;
+  opacity: 1;
+  
   @media screen and (max-width: 799px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   @keyframes fadeIN{
     0%{
       background: #000;
@@ -27,6 +29,7 @@ const IntroContentWrapper = styled(ContentWrapper)`
   }
 `
 const LogoContainer = styled.aside`
+
   @media screen and (min-width: 800px) {
     flex-grow: 0;
     flex-shrink: 0;
@@ -36,11 +39,13 @@ const LogoContainer = styled.aside`
 const DescriptionContainer = styled.div.attrs({ className: 'description' })`
   color: #676c71;
   font-size: 1.5rem;
+
   @media screen and (max-width: 799px) {
     margin-top: 1rem;
     text-align: center;
     font-size: 1.25rem;
   }
+
   @media screen and (min-width: 800px) {
     display: flex;
     flex-grow: 1;
