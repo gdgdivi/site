@@ -6,17 +6,28 @@ import logo from './logo.svg'
 const Content = styled.section`
   background-color: #f7f7f7;
 `
-
 const IntroContentWrapper = styled(ContentWrapper)`
   display: flex;
+  animation: fadeIN 10s;
+  opacity: 1;
 
   @media screen and (max-width: 799px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-`
 
+  @keyframes fadeIN {
+    0% {
+      background: #000;
+      opacity: 0;
+    }
+    100% {
+      background: #fff;
+      opacity: 1;
+    }
+  }
+`
 const LogoContainer = styled.aside`
   @media screen and (min-width: 800px) {
     flex-grow: 0;
@@ -24,7 +35,6 @@ const LogoContainer = styled.aside`
     order: 2;
   }
 `
-
 const DescriptionContainer = styled.div.attrs({ className: 'description' })`
   color: #676c71;
   font-size: 1.5rem;
@@ -43,7 +53,6 @@ const DescriptionContainer = styled.div.attrs({ className: 'description' })`
     margin-right: 3.5rem;
   }
 `
-
 const Intro = () => (
   <Content id="intro">
     <IntroContentWrapper>

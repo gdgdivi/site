@@ -16,7 +16,7 @@ const ContactItemsWrapper = styled.div`
 `
 
 const Social = () => (
-  <section>
+  <section id="contact">
     <ContentWrapper>
       <Title>Contato</Title>
       <ContactItemsWrapper>
