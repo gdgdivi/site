@@ -8,7 +8,6 @@ const Content = styled.section`
 `
 const IntroContentWrapper = styled(ContentWrapper)`
   display: flex;
-  animation: fadeIN 10s;
   opacity: 1;
 
   @media screen and (max-width: 799px) {
@@ -17,16 +16,7 @@ const IntroContentWrapper = styled(ContentWrapper)`
     align-items: center;
   }
 
-  @keyframes fadeIN {
-    0% {
-      background: #000;
-      opacity: 0;
-    }
-    100% {
-      background: #fff;
-      opacity: 1;
-    }
-  }
+
 `
 const LogoContainer = styled.aside`
   @media screen and (min-width: 800px) {
