@@ -10,7 +10,7 @@ const Icon = styled.img`
   height: 5.5rem;
   width: 5.5rem;
   transition: transform 0.5s;
-  :hover{
+  &:hover{
     transform: scale(0.85);
     transition: transform 0.5s;
   }

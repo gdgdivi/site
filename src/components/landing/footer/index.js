@@ -15,19 +15,12 @@ const Title = styled.li`
   color: #586069;
 `
 
-
 const Link = styled.a`
   color: #afadad;
   :hover {
     color: var(--gdg);
   }
 `
-const footerLinkTitle = styled.li`
-  font-weight: 100;
-  font-size: 2em;
-`
-
-
 const Footer = () => {
   return (
     <FooterWrapper>
@@ -40,14 +33,10 @@ const Footer = () => {
             <ul className="list-unstyled">
               <Title>Links</Title>
               <li>
-                <Link href="https://github.com/gdgdivi/codigo-conduta">
-                  Código de conduta
-                </Link>
+                <Link href="https://github.com/gdgdivi/codigo-conduta">Código de conduta</Link>
               </li>
               <li>
-                <Link href="https://developers.google.com/">
-                  Google Developers
-                </Link>
+                <Link href="https://developers.google.com/">Google Developers</Link>
               </li>
               <li>
                 <Link href="https://developers.google.com/">Outros grupos</Link>
@@ -58,9 +47,7 @@ const Footer = () => {
             <ul className="list-unstyled">
               <Title>Contato</Title>
               <li>
-                <Link href="mailto:gdgdivi@gmail.com">
-                  gdgdivi@gmail.com
-                </Link>
+                <Link href="mailto:gdgdivi@gmail.com">gdgdivi@gmail.com</Link>
               </li>
               <li>
                 <Link href="https://www.facebook.com/gdgdivi/">Facebook</Link>

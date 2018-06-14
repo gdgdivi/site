@@ -4,8 +4,6 @@ import 'bulma'
 import './index.scss'
 
 
-
-
 const Index = ({ children }) => (
   <div>
     <Helmet
