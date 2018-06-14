@@ -32,35 +32,34 @@ const Brand = () => (
 
 class Header extends Component {
   componentDidMount() {
-      $('.navbar-item').click(function(event) {        
-        event.preventDefault()
-        $('html,body').animate(
-          { scrollTop: $(this.hash).offset().top - 100 },
-            600
-            )
-     }) 
+    $('.navbar-item').click(function(event) {  
+      event.preventDefault()
+      $('html,body').animate(
+        { scrollTop: $(this.hash).offset().top - 100 },
+          600
+      )
+    }) 
 
   }
   render() {
-      return (
-        <Nav>
-          <div className="container">
-            <Brand />
-            <div id="nav-menu" className="navbar-menu navbar-end">
-              <a className="navbar-item" href="#intro">
-                O que fazemos
-              </a>
-              <a className="navbar-item" href="#team">
-                Equipe
-              </a>
-              <a className="navbar-item" href="#contact">
-                Contato
-              </a>
-            </div>
+    return (
+      <Nav>
+        <div className="container">
+          <Brand />
+          <div id="nav-menu" className="navbar-menu navbar-end">
+            <a className="navbar-item" href="#intro">
+              O que fazemos
+            </a>
+            <a className="navbar-item" href="#team">
+              Equipe
+            </a>
+            <a className="navbar-item" href="#contact">
+              Contato
+            </a>
           </div>
-        </Nav>
-      )
-
+        </div>
+      </Nav>
+    )
   }
 
 }
