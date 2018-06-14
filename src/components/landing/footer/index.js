@@ -11,21 +11,20 @@ const FooterWrapper = styled.footer`
 const Title = styled.li`
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
-  font-weight:100;
+  font-weight: 100;
   color: #586069;
 `
 
 
 const Link = styled.a`
   color: #afadad;
-
   :hover {
     color: var(--gdg);
   }
 `
 const footerLinkTitle = styled.li`
-  font-weight:100;
-  font-size:2em;
+  font-weight: 100;
+  font-size: 2em;
 `
 
 
