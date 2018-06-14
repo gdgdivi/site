@@ -3,6 +3,9 @@ import Helmet from 'react-helmet'
 import 'bulma'
 import './index.scss'
 
+
+
+
 const Index = ({ children }) => (
   <div>
     <Helmet

@@ -29,9 +29,6 @@ const footerLinkTitle = styled.li`
 `
 
 
-
-
-
 const Footer = () => {
   return (
     <FooterWrapper>
