@@ -7,10 +7,10 @@ import $ from 'jquery'
 const Nav = styled.nav.attrs({ className: 'navbar' })`
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
   min-height: 5rem;
-  position:fixed;
-  width:100%;
-  top:0;
-  z-index:999;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
 `
 
 

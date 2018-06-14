@@ -15,8 +15,6 @@ const IntroContentWrapper = styled(ContentWrapper)`
     justify-content: center;
     align-items: center;
   }
-
-
 `
 const LogoContainer = styled.aside`
   @media screen and (min-width: 800px) {

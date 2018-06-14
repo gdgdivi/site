@@ -11,15 +11,11 @@ const Wrapper = styled.a`
   opacity: 0.5;
   transition-property: opacity, transform;
   will-change: opacity, transform;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-  -webkit-transition: transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
   :hover {
     color: ${({ color }) => `${color}`};
     opacity: 1;
     transform: scale(0.86);
-    -webkit-transition: -webkit-transform 0.5s ease-in-out;
-    -webkit-transition: transform 0.5s ease-in-out;
     transition: transform 0.5s ease-in-out;
   }
 
