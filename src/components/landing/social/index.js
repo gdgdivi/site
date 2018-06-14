@@ -6,7 +6,7 @@ import ContactIcon from './ContactIcon'
 const Title = styled.h1`
   font-size: 2.75rem;
   margin-bottom: 1rem;
-  font-weight:400;
+  font-weight: 400;
 `
 
 const ContactItemsWrapper = styled.div`
