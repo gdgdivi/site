@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 const Container = styled.div.attrs({ className: 'column is-one-third' })`
   text-align: center;
+  padding:10px;
 `
 
 const Icon = styled.img`
@@ -13,11 +14,14 @@ const Icon = styled.img`
 const Headline = styled.p`
   font-size: 20px;
   margin-bottom: 1rem;
+  font-weight:400;
 `
 
 const Description = styled.p`
   font-weight: 300;
   text-align: left;
+  font-size:15px;
+  
 `
 
 const AboutItem = ({ item }) => (

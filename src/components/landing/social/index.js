@@ -6,6 +6,7 @@ import ContactIcon from './ContactIcon'
 const Title = styled.h1`
   font-size: 2.75rem;
   margin-bottom: 1rem;
+  font-weight:400;
 `
 
 const ContactItemsWrapper = styled.div`
@@ -18,7 +19,7 @@ const ContactItemsWrapper = styled.div`
 const Social = () => (
   <section id="contact">
     <ContentWrapper>
-      <Title>Contato</Title>
+      <Title>Onde nos encontrar</Title>
       <ContactItemsWrapper>
         <ContactIcon
           label="Facebook"

@@ -6,10 +6,12 @@ import team from './team.json'
 
 const Section = styled.section`
   background-color: #4285f4;
+  padding-bottom:40px;
 `
 
 const Title = styled.h1`
   color: #fff;
+  font-weight:400;
   font-size: 2.75rem;
   margin-bottom: 2rem;
 `

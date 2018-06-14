@@ -11,7 +11,8 @@ export default function Logo() {
     <img
       src={logo}
       srcSet={`${logo} 1x, ${logo2x} 2x, ${logo3x} 3x, ${logo4x} 4x`}
-      alt="Logo of GDG Divinópolis"
+      alt="Logo GDG Divinópolis"
+      title="GDG Divinópolis"
       height="28"
       width="218"
     />

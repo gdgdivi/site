@@ -15,7 +15,7 @@ const Wrapper = styled.a`
   :hover {
     color: ${({ color }) => `${color}`};
     opacity: 1;
-    transition: color 0.5s;
+    transition: color 0.1s;
   }
 
   :active {
