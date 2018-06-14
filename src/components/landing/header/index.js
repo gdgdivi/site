@@ -32,14 +32,13 @@ const Brand = () => (
 
 class Header extends Component {
   componentDidMount() {
-    $('.navbar-item').click(function(event) {  
+    $('.navbar-item').click(function(event) {
       event.preventDefault()
       $('html,body').animate(
         { scrollTop: $(this.hash).offset().top - 100 },
-          600
+        600
       )
-    }) 
-
+    })
   }
   render() {
     return (
@@ -61,7 +60,6 @@ class Header extends Component {
       </Nav>
     )
   }
-
 }
 
 export default Header
