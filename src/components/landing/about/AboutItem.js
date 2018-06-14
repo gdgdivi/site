@@ -9,6 +9,15 @@ const Container = styled.div.attrs({ className: 'column is-one-third' })`
 const Icon = styled.img`
   height: 5.5rem;
   width: 5.5rem;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    -webkit-transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+  :hover{
+    transform:scale(0.85);
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    -webkit-transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+  }
 `
 
 const Headline = styled.p`
