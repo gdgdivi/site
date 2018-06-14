@@ -9,9 +9,8 @@ const Wrapper = styled.a`
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   opacity: 0.5;
-  transition-property: opacity, transform;
+  transition-property: opacity, transform 0.5s;
   will-change: opacity, transform;
-  transition: transform 0.5s;
   :hover {
     color: ${({ color }) => `${color}`};
     opacity: 1;
