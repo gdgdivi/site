@@ -1,15 +1,20 @@
 import React from 'react'
 import Landing from '../components/landing'
+import styled from 'styled-components'
+
+const BodyG = styled.div`
+  padding-top: 74px;
+`
 
 const IndexPage = () => (
-  <div>
+  <BodyG>
     <Landing.Header />
     <Landing.Intro />
     <Landing.About />
     <Landing.Team />
     <Landing.Social />
     <Landing.Footer />
-  </div>
+  </BodyG>
 )
 
 export default IndexPage

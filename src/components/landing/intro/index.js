@@ -8,24 +8,12 @@ const Content = styled.section`
 `
 const IntroContentWrapper = styled(ContentWrapper)`
   display: flex;
-  animation: fadeIN 10s;
   opacity: 1;
 
   @media screen and (max-width: 799px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  @keyframes fadeIN {
-    0% {
-      background: #000;
-      opacity: 0;
-    }
-    100% {
-      background: #fff;
-      opacity: 1;
-    }
   }
 `
 const LogoContainer = styled.aside`

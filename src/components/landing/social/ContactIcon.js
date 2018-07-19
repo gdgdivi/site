@@ -9,14 +9,13 @@ const Wrapper = styled.a`
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   opacity: 0.5;
-  transition-property: opacity, transform;
+  transition-property: opacity, transform 0.5s;
   will-change: opacity, transform;
-
   :hover {
     color: ${({ color }) => `${color}`};
     opacity: 1;
     transform: scale(0.86);
-    transition: transform 0.5s color 1s;
+    transition: transform 0.5s;
   }
 
   :active {
