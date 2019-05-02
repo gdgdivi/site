@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 import Logo from './../../common/Logo'
-import $ from 'jquery'
+import { ScrollSuave } from './scrollsuave'
 
 const Nav = styled.nav.attrs({ className: 'navbar' })`
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
@@ -32,13 +32,7 @@ const Brand = () => (
 
 class Header extends Component {
   componentDidMount() {
-    $('.navbar-item').click(function(event) {
-      event.preventDefault()
-      $('html,body').animate(
-        { scrollTop: $(this.hash).offset().top - 100 },
-        600
-      )
-    })
+    ScrollSuave()
   }
   render() {
     return (
