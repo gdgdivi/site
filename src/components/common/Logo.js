@@ -1,7 +1,7 @@
 import React from 'react'
 import { withPrefix } from 'gatsby-link'
 
-export default function Logo() {
+export default function LogoStyledLogo() {
   const logo = withPrefix('images/gdgdivi-logo.png')
   const logo2x = withPrefix('images/gdgdivi-logo@2x.png')
   const logo3x = withPrefix('images/gdgdivi-logo@3x.png')
