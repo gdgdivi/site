@@ -1,7 +1,7 @@
 [
   {
-    "image": "images/profile/gustavo.jpg",
-    "srcset": "images/profile/gustavo.jpg 1x, images/profile/gustavo@2x.jpg 2x, images/profile/gustavo@3x.jpg 3x, images/profile/gustavo@4x.jpg 4x",
+    "image": "https://avatars3.githubusercontent.com/u/24482087?s=460&v=4",
+    "srcset": "https://avatars3.githubusercontent.com/u/24482087?s=250&v=4, https://avatars3.githubusercontent.com/u/24482087?s=250&v=4, https://avatars3.githubusercontent.com/u/24482087?s=600&v=4,https://avatars3.githubusercontent.com/u/24482087?s=800&v=4",
     "name": "Gustavo Henrique",
     "job": "Front-end Developer",
     "twitter": "https://twitter.com/oguhpereira",
@@ -9,8 +9,8 @@
     "linkedin": "https://www.linkedin.com/in/oguhpereira/"
   },
   {
-    "image": "images/profile/lauro.jpg",
-    "srcset": "images/profile/lauro.jpg 1x, images/profile/lauro@2x.jpg 2x, images/profile/lauro@3x.jpg 3x, images/profile/lauro@4x.jpg 4x",
+    "image": "https://avatars3.githubusercontent.com/u/12894676?s=460&v=3",
+    "srcset": "https://avatars3.githubusercontent.com/u/12894676?s=250&v=3, https://avatars3.githubusercontent.com/u/12894676?s=250&v=3, https://avatars3.githubusercontent.com/u/12894676?s=600&v=3, https://avatars3.githubusercontent.com/u/12894676?s=800&v=3",
     "name": "Lauro Mansur",
     "job": "Front-end Developer",
     "facebook": "https://www.facebook.com/lauromansur",
@@ -19,8 +19,8 @@
     "twitter": "https://twitter.com/lauromansur"
   },
   {
-    "image": "images/profile/mario.jpg",
-    "srcset": "images/profile/mario.jpg 1x, images/profile/mario@2x.jpg 2x, images/profile/mario@3x.jpg 3x, images/profile/mario@4x.jpg 4x",
+    "image": "https://avatars0.githubusercontent.com/u/8248114?s=460&v=4",
+    "srcset": "https://avatars0.githubusercontent.com/u/8248114?s=250&v=4, https://avatars0.githubusercontent.com/u/8248114?s=250&v=4, https://avatars0.githubusercontent.com/u/8248114?s=600&v=4, https://avatars0.githubusercontent.com/u/8248114?s=800&v=4",
     "name": "Mário Vilela",
     "job": "Front-end Developer",
     "facebook": "https://www.facebook.com/mariolf.vilela",
@@ -29,7 +29,7 @@
   },
   {
     "image": "images/profile/mell.jpg",
-    "srcset": "images/profile/mell.jpg 1x, images/profile/mell@2x.jpg 2x, images/profile/mell@3x.jpg 3x, images/profile/mell@4x.jpg 4x",
+    "srcset": "https://avatars0.githubusercontent.com/u/11560991?s=250&v=4, https://avatars0.githubusercontent.com/u/11560991?s=250&v=4,https://avatars0.githubusercontent.com/u/11560991?s=600&v=4, https://avatars0.githubusercontent.com/u/11560991?s=800&v=4",
     "name": "Melissa Santos",
     "job": "C# Developer",
     "facebook": "https://www.facebook.com/melissa.santosbarbosa",
@@ -55,8 +55,8 @@
     "twitter": "https://twitter.com/mrsilvanojunior"
   },
   {
-    "image": "images/profile/vini.jpg",
-    "srcset": "images/profile/vini.jpg 1x, images/profile/vini@2x.jpg 2x, images/profile/vini@3x.jpg 3x, images/profile/vini@4x.jpg 4x",
+    "image": "https://avatars0.githubusercontent.com/u/12788847?s=460&v=4",
+    "srcset": "https://avatars0.githubusercontent.com/u/12788847?s=250&v=4, https://avatars0.githubusercontent.com/u/12788847?s=250&v=4,https://avatars0.githubusercontent.com/u/12788847?s=600&v=4, https://avatars0.githubusercontent.com/u/12788847?s=800&v=4",
     "name": "Vinícius Soares",
     "job": "Mobile Engineer",
     "facebook": "https://www.facebook.com/vinicius5oares",
