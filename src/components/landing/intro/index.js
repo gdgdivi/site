@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import ContentWrapper from './../../common/ContentWrapper'
-import logo from './logo.svg'
+import logo from './logo.png'
 
 const Content = styled.section`
   background-color: #f7f7f7;
@@ -49,8 +49,9 @@ const Intro = () => (
           <img
             src={logo}
             alt="Logo of Google Developer Group"
-            width="183"
-            height="292"
+            width="270"
+            height="270"
+            style={{borderRadius: "100%", boxShadow: "0px 0px 11px -7.8px"}}
           />
         </figure>
       </LogoContainer>
