@@ -28,6 +28,12 @@ const Social = () => (
           color="var(--facebook)"
         />
         <ContactIcon
+          label="Instagram"
+          icon="fa-instagram"
+          url="https://www.instagram.com/gdgdivi/"
+          color="var(--instagram)"
+        />
+        <ContactIcon
           label="Github"
           icon="fa-github"
           url="https://github.com/gdgdivi"

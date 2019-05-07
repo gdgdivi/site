@@ -43,7 +43,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="https://developers.google.com/">Outros grupos</Link>
+                <Link href="https://developers.google.com/programs/community/gdg/directory/">Outros grupos</Link>
               </li>
             </ul>
           </div>
@@ -54,12 +54,15 @@ const Footer = () => {
                 <Link href="mailto:gdgdivi@gmail.com">gdgdivi@gmail.com</Link>
               </li>
               <li>
-                <Link href="https://www.facebook.com/gdgdivi/">Facebook</Link>
-              </li>
-              <li>
                 <Link href="https://www.meetup.com/pt-BR/GDG-Divinopolis/">
                   Meetup
                 </Link>
+              </li>
+              <li>
+                <Link href="https://www.instagram.com/gdgdivi/">Instagram</Link>
+              </li>
+              <li>
+                <Link href="https://www.facebook.com/gdgdivi/">Facebook</Link>
               </li>
               <li>
                 <Link href="https://twitter.com/gdgdivi">Twitter</Link>

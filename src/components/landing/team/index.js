@@ -5,7 +5,7 @@ import Profile from './Profile'
 import team from './team.json'
 
 const Section = styled.section`
-  background-color: #4285f4;
+  background-color: #0f9d57;
   padding-bottom: 40px;
 `
 
