@@ -1,6 +1,6 @@
 function getScrollTopByHref(element) {
   const id = element.getAttribute('href')
-  return document.querySelector(id).offsetTop
+  return document.querySelector(id).offsetTop - 50
 }
 
 function scrollToPosition(to) {
