@@ -43,7 +43,9 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="https://developers.google.com/programs/community/gdg/directory/">Outros grupos</Link>
+                <Link href="https://developers.google.com/programs/community/gdg/directory/">
+                  Outros grupos
+                </Link>
               </li>
             </ul>
           </div>

@@ -51,7 +51,7 @@ const Intro = () => (
             alt="Logo of Google Developer Group"
             width="270"
             height="270"
-            style={{borderRadius: "100%", boxShadow: "0px 0px 11px -7.8px"}}
+            style={{ borderRadius: '100%', boxShadow: '0px 0px 11px -7.8px' }}
           />
         </figure>
       </LogoContainer>
